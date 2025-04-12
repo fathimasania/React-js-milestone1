@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap");
+@import url('@fortawesome/fontawesome-free/css/all.min.css');
 
 * {
   box-sizing: border-box;
@@ -62,9 +63,69 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
-footer {
+.features-section .btn-primary {
+  padding: 0; /* Remove all padding */
+  margin-right: 10px;
+  border-radius: 2px;
+  height: 32px;
+  width: 200px;
+  background-color: #111B47 !important;
+  color: white !important;
+  border: 2px solid #111B47 !important;
+  display: flexbox; 
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  line-height: 1;
+  text-align: center; /* Additional text centering */
+}
+
+/* This will apply to all primary buttons */
+.btn-primary.purchase-btn {
+  padding: 0;
+  margin-right: 10px;
+  border-radius: 2px;
+  height: 32px;
+  width: 200px;
+  background-color: #111B47 !important;
+  color: white !important;
+  border: 2px solid #111B47 !important;
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+/* footer {
   background-color: #343a40;
   color: white;
   padding: 20px 0;
   text-align: center;
+} */
+
+.footer-section {
+  background-color: #F4F6FC;
+  font-size: 0.9rem;
+}
+
+.footer-section .nav-link {
+  padding: 0 10px;
+}
+
+.footer-section .social-icons i {
+  font-size: 18px;
+  color: #9E9E9E;
+  cursor: pointer;
+}
+
+.footer-section .btn-primary {
+  padding: 0;
+  border-radius: 2px;
+  height: 32px;
+  width: 200px;
+  background-color: #111B47 !important;
+  color: white !important;
+  border: 2px solid #111B47 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

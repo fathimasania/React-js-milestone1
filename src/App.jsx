@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Footer from './components/Footer';
 import Features from './components/Features';
+import PricingSection from './components/PricingSection';
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
       <Header />
       <Hero />
       <Features/>
+      <PricingSection/>
+      <Footer/>
     </>
   );
 }
